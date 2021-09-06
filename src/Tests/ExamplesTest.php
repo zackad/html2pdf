@@ -15,7 +15,7 @@ namespace Spipu\Html2Pdf\Tests;
 /**
  * Class ExamplesTest
  */
-class ExamplesTest extends \PHPUnit_Framework_TestCase
+class ExamplesTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Launch a example

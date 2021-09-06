@@ -21,7 +21,7 @@ use Spipu\Html2Pdf\Exception\LongSentenceException;
 /**
  * Class ExceptionFormaterTest
  */
-class ExceptionFormatterTest extends \PHPUnit_Framework_TestCase
+class ExceptionFormatterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test the formatter / generic exception

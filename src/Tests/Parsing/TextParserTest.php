@@ -17,7 +17,7 @@ use Spipu\Html2Pdf\Parsing\TextParser;
 /**
  * Class TextParserTest
  */
-class TextParserTest extends \PHPUnit_Framework_TestCase
+class TextParserTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var TextParser

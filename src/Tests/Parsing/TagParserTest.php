@@ -18,7 +18,7 @@ use Spipu\Html2Pdf\Parsing\TagParser;
 /**
  * Class TagParserTest
  */
-class TagParserTest extends \PHPUnit_Framework_TestCase
+class TagParserTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var TagParser
@@ -83,11 +83,10 @@ class TagParserTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test if a bad tag is detected
-     *
-     * @expectedException  \Spipu\Html2Pdf\Exception\HtmlParsingException
      */
     public function testAnalyzeTagBadTag()
     {
+        $this->expectException(\Spipu\Html2Pdf\Exception\HtmlParsingException::class);
         $this->parser->analyzeTag('test');
     }
 

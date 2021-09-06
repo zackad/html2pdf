@@ -17,7 +17,7 @@ use Spipu\Html2Pdf\Parsing\Html;
 /**
  * Class HtmlTest
  */
-class HtmlTest extends \PHPUnit_Framework_TestCase
+class HtmlTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Html
