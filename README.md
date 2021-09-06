@@ -1,4 +1,5 @@
 # Html2Pdf
+> NOTES: If you want to use php8, please install v6.0.0 or newer.
 
 Html2Pdf is a HTML to PDF converter written in PHP, and compatible with PHP **5.6** to **7.4**.
 
@@ -13,6 +14,19 @@ You must use Composer to install this library.
 It uses TCPDF for the PDF part.
 
 ## Requirements
+
+__How to use this fork__
+
+Add following code into your `composer.json`.
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/zackad/html2pdf"
+    }
+],
+```
 
 Html2Pdf works with PHP >5.6 and Composer.
 

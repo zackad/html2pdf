@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.0.0](https://github.com/zackad/html2pdf/compare/v5.2.2...6.0.0) - 2021-09-06
+
+  * Drop compatibility with unsupported php version (require php 7.3 or newer)
+  * Replace `phpunit/phpunit` with `yoast/phpunit-polyfills`
+  * Update test case with phpunit 9 syntax
+  * Run CI/CD on github actions
+
 ## [5.2.3](https://github.com/spipu/html2pdf/compare/v5.2.2...master) - unreleased
 
   *  fix issue on write2DBarcode parameters - thanks to @Sarigue
@@ -60,10 +67,10 @@ All notable changes to this project will be documented in this file.
   * fix bad cleaning after output or exception
   * fix bad format detecting on `page` tag - issue #260
   * fix changelog file
-  
+
 ## [5.0.1](https://github.com/spipu/html2pdf/compare/v5.0.0...v5.0.1) - 2017-06-15
 
-  * fix issue #200 pb with absolute path when saving the pdf file on server 
+  * fix issue #200 pb with absolute path when saving the pdf file on server
 
 ## [5.0.0](https://github.com/spipu/html2pdf/compare/v4.6.1...v5.0.0) - 2017-06-15
 
@@ -94,7 +101,7 @@ Lots of classes / methods have been renamed, moved, deleted, exploded.
   * add new attribute to page tag `hidefooter` which accepts a list of pages that gonna skip footer https://github.com/spipu/html2pdf/issues/162
   * add protection on the fallback image if it does not exist
   * add protection on thead and tfoot tags: they must contain at least one tr tag
-  * add norwegian locale 
+  * add norwegian locale
   * fix a infinite loop case when reading a svg path
   * fix issue from https://github.com/spipu/html2pdf/pull/177
   * fix issue from https://github.com/spipu/html2pdf/pull/163
@@ -420,7 +427,7 @@ Lots of classes / methods have been renamed, moved, deleted, exploded.
 
   * refonte totale du calcul des tableaux
   * Prise en compte des colspan et rowspan
-  * 
+  *
 ## 2.85
 
   * ajout de la propriété cellspacing
@@ -468,7 +475,7 @@ Lots of classes / methods have been renamed, moved, deleted, exploded.
 ## 2.37
 
   * nombreuses corrections :
-  
+
     * balise A
     * couleur de fond
     * retour à la ligne
