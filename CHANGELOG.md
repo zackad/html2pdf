@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [6.0.0](https://github.com/zackad/html2pdf/compare/v5.2.2...6.0.0) - 2021-09-06
+## [6.0.0](https://github.com/zackad/html2pdf/compare/v5.2.2...v6.0.0) - 2021-09-06
 
   * Drop compatibility with unsupported php version (require php 7.3 or newer)
   * Replace `phpunit/phpunit` with `yoast/phpunit-polyfills`
