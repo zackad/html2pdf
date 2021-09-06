@@ -24,7 +24,7 @@ class TextParserTest extends \PHPUnit\Framework\TestCase
      */
     private $parser;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->parser = new TextParser();
     }
