@@ -7,7 +7,7 @@ use Spipu\Html2Pdf\CssConverter;
 /**
  * Class CssConverterTest
  */
-class CssConverterTest extends \PHPUnit_Framework_TestCase
+class CssConverterTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var CssConverter

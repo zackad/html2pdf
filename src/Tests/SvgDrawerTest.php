@@ -9,7 +9,7 @@ use Spipu\Html2Pdf\SvgDrawer;
 /**
  * Class Html2PdfTest
  */
-class SvgDrawerTest extends \PHPUnit_Framework_TestCase
+class SvgDrawerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var SvgDrawer
@@ -27,11 +27,10 @@ class SvgDrawerTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Test IsDrawing Exception
-     *
-     * @expectedException \Spipu\Html2Pdf\Exception\HtmlParsingException
      */
     public function testIsDrawingException()
     {
+        $this->expectException(\Spipu\Html2Pdf\Exception\HtmlParsingException::class);
         $properties = [
             'x' => 0,
             'y' => 0,

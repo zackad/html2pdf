@@ -7,7 +7,7 @@ use Spipu\Html2Pdf\Html2Pdf;
 /**
  * Class Html2PdfTest
  */
-abstract class AbstractTest extends \PHPUnit_Framework_TestCase
+abstract class AbstractTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Html2Pdf
