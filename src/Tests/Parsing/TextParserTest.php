@@ -17,14 +17,14 @@ use Spipu\Html2Pdf\Parsing\TextParser;
 /**
  * Class TextParserTest
  */
-class TextParserTest extends \PHPUnit_Framework_TestCase
+class TextParserTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var TextParser
      */
     private $parser;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->parser = new TextParser();
     }

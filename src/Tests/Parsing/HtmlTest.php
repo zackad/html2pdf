@@ -17,14 +17,14 @@ use Spipu\Html2Pdf\Parsing\Html;
 /**
  * Class HtmlTest
  */
-class HtmlTest extends \PHPUnit_Framework_TestCase
+class HtmlTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Html
      */
     private $object;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $textParser = $this->getMockBuilder('Spipu\Html2Pdf\Parsing\TextParser')
             ->disableOriginalConstructor()
