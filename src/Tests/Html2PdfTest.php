@@ -10,9 +10,6 @@ use Spipu\Html2Pdf\Html2Pdf;
  */
 class Html2PdfTest extends AbstractTest
 {
-    /**
-     * @doesNotPerformAssertions
-     */
     public function testExtensionTag()
     {
         $tag = Phake::mock('Spipu\Html2Pdf\Tag\TagInterface');
