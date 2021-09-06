@@ -24,7 +24,7 @@ class HtmlTest extends \PHPUnit\Framework\TestCase
      */
     private $object;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $textParser = $this->getMockBuilder('Spipu\Html2Pdf\Parsing\TextParser')
             ->disableOriginalConstructor()

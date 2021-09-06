@@ -14,7 +14,7 @@ class CssConverterTest extends \PHPUnit\Framework\TestCase
      */
     private $cssConverter;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->cssConverter = new CssConverter();
     }

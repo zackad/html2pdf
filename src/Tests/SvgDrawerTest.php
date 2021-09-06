@@ -16,7 +16,7 @@ class SvgDrawerTest extends \PHPUnit\Framework\TestCase
      */
     private $svgDrawer;
 
-    public function setUp()
+    public function setUp(): void
     {
         $myPdf = Phake::mock('Spipu\Html2Pdf\MyPdf');
 

@@ -25,7 +25,7 @@ class TagParserTest extends \PHPUnit\Framework\TestCase
      */
     private $parser;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $textParser = $this->getMockBuilder('Spipu\Html2Pdf\Parsing\TextParser')
             ->disableOriginalConstructor()
